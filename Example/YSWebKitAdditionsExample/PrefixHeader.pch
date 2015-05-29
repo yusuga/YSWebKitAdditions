@@ -6,14 +6,4 @@
 //  Copyright (c) 2014年 Yu Sugawara. All rights reserved.
 //
 
-#ifndef YSWebKitAdditionsExample_PrefixHeader_pch
-#define YSWebKitAdditionsExample_PrefixHeader_pch
-
-#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
-#ifdef DEBUG
-    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
-#else
-    static const int ddLogLevel = LOG_LEVEL_ERROR;
-#endif
-
-#endif
+#import <LumberjackLauncher/LumberjackLauncher.h>

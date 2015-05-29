@@ -7,7 +7,6 @@
 //
 
 #import "WKWebView+YSWebKitAdditions.h"
-#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
 
 NSString *ys_NSStringFromWKNavigationType(WKNavigationType type)
 {

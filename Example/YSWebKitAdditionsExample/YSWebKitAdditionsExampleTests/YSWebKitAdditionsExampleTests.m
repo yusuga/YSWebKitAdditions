@@ -23,7 +23,6 @@
 - (void)setUp
 {
     [super setUp];
-    [YSCocoaLumberjackHelper launchLogger];
     
     self.webView = [[WKWebView alloc] initWithFrame:[UIScreen mainScreen].bounds
                                       configuration:[[WKWebViewConfiguration alloc] init]];
